@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ml/mapper.StockHistoryMapper">
+	<!-- 配置映射字段 -->
+	<resultMap type="org.junko.ml.po.StockHistoryPO" id="StockHistoryMapper">
+		<id property="StockID" column="stock_id" />
+		<result property="StockName" column="stock_name" />
+		<result property="Open" column="open" />
+		<result property="Hight" column="hight" />
+		<result property="Low" column="low" />
+	</resultMap>
+
+
+	<select id="findAll" resultType="StockHistoryMapper">
+		SELECT stock_id as StockID,
+		stock_name as StockName,
+		Open,
+		Hight,
+		Low
+		FROM stock_history
+	</select>
+
+	<select id="findByID" parameterType="integer">
+		SELECT stock_id as StockID,
+		stock_name as StockName,
+		Open,
+		Hight,
+		Low
+		FROM stock_history
+		WHERE stock_id
+		= #{StockID}
+	</select>
+
+	<insert id="insert" parameterType="StockHistoryMapper">
+		INSERT INTO stock_history
+		(stock_id,stock_name, open, hight, low) VALUES
+		(#{StockID},#{StockName},#{Open},#{Hight},#{Low})
+	</insert>
+	
+	<insert id="BatchInsert" useGeneratedKeys="false" parameterType="java.util.List">  
+        insert into stock_history (stock_id,stock_name, open, hight, low)   
+        values  
+        <foreach collection="list" item="item" index="index" separator="," >  
+           (#{item.StockID},#{item.StockName},#{item.Open},#{item.Hight},#{item.Low})  
+        </foreach>  
+    </insert>  
+
+	<update id="update" parameterType="StockHistoryMapper">
+		UPDATE stock_history set
+		stock_name=#{StockName},open=#{Open},hight=#{Hight},low=#{Low}
+		WHERE
+		stock_id = #{StockID}
+	</update>
+
+	<delete id="deleteById" parameterType="integer">
+		DELETE FROM stock_history
+		WHERE stock_id = #{StockID}
+	</delete>
+
+
+
+
+</mapper>

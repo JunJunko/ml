@@ -1,0 +1,309 @@
+06 一月 2018 14:12:09,636 INFO  [main] (org.junko.ml.AppTest.testApp:40)  - aaaaaaaaaaaa
+06 一月 2018 15:01:20,648 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:01:20,708 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:01:20,709 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:01:20,709 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:01:20,710 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:02:42,765 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:02:42,795 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:02:42,795 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:02:42,796 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:02:42,796 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:06:38,029 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:06:38,057 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:06:38,057 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:06:38,058 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:06:38,058 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:07:14,781 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:07:14,811 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:07:14,811 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:07:14,812 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:07:14,812 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:07:14,911 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:08:13,408 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:08:13,437 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:08:13,438 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:08:13,438 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:08:13,439 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:08:13,548 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:08:13,928 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 586084331.
+06 一月 2018 15:08:13,929 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@22eeefeb]
+06 一月 2018 15:08:13,932 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:08:13,967 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:08:14,028 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 0
+06 一月 2018 15:23:40,692 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:23:40,719 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:40,720 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:40,720 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:40,720 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:40,822 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:23:41,152 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 2024542466.
+06 一月 2018 15:23:41,152 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78ac1102]
+06 一月 2018 15:23:41,156 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id, stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:23:41,215 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:23:58,606 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:23:58,633 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:58,634 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:58,634 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:58,635 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:23:58,738 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:23:59,071 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 2024542466.
+06 一月 2018 15:23:59,072 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78ac1102]
+06 一月 2018 15:23:59,076 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id, stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:23:59,121 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:23:59,123 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:23:59,126 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:23:59,126 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:23:59,148 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 1
+06 一月 2018 15:23:59,150 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: UPDATE stock_history set stock_name=?,open=?,hight=?,low=? WHERE stock_id = ? 
+06 一月 2018 15:23:59,150 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: test1(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal), 1(Integer)
+06 一月 2018 15:23:59,179 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:23:59,179 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:23:59,180 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:23:59,181 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 1
+06 一月 2018 15:23:59,182 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: DELETE FROM stock_history WHERE stock_id = ? 
+06 一月 2018 15:23:59,183 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer)
+06 一月 2018 15:23:59,183 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:23:59,184 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:23:59,185 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:23:59,186 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 0
+06 一月 2018 15:24:56,154 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:24:56,183 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:24:56,184 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:24:56,184 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:24:56,184 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:24:56,284 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:24:56,614 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 2024542466.
+06 一月 2018 15:24:56,615 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78ac1102]
+06 一月 2018 15:24:56,618 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id, stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:24:56,664 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:24:56,665 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:24:56,668 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:24:56,668 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:24:56,691 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 1
+06 一月 2018 15:27:41,069 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:27:41,096 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:27:41,097 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:27:41,097 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:27:41,097 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:27:41,217 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:27:41,553 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 2024542466.
+06 一月 2018 15:27:41,554 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78ac1102]
+06 一月 2018 15:27:41,559 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:27:41,606 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:27:41,608 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:27:41,608 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@78ac1102]
+06 一月 2018 15:27:41,634 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:27:41,634 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:27:41,656 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 1
+06 一月 2018 15:33:31,796 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:33:31,825 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:33:31,825 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:33:31,826 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:33:31,826 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:33:31,875 DEBUG [Finalizer] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:34:18,761 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:34:18,787 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:34:18,788 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:34:18,788 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:34:18,788 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:34:18,897 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:34:19,230 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1337344609.
+06 一月 2018 15:34:19,231 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:34:19,235 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:34:19,281 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:34:19,282 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:34:19,283 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:34:19,310 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:34:19,311 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:34:19,331 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 2
+06 一月 2018 15:35:57,286 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:35:57,315 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:35:57,315 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:35:57,316 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:35:57,316 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:35:57,364 DEBUG [Finalizer] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:38:46,023 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:38:46,050 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:38:46,051 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:38:46,051 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:38:46,052 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:38:46,099 DEBUG [Finalizer] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:41:32,531 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:41:32,560 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:41:32,561 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:41:32,561 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:41:32,562 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:41:32,665 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:41:33,006 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1337344609.
+06 一月 2018 15:41:33,007 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:41:33,010 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:41:33,059 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:41:33,061 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:41:33,062 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:41:33,084 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:41:33,085 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:41:33,107 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 1
+06 一月 2018 15:44:00,350 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:44:00,376 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:44:00,377 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:44:00,377 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:44:00,377 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:44:00,480 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:44:00,824 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1337344609.
+06 一月 2018 15:44:00,825 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:44:00,828 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:44:00,877 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:44:00,879 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:44:00,879 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:44:00,906 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:44:00,907 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:44:00,928 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 2
+06 一月 2018 15:49:35,182 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:49:35,210 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:49:35,210 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:49:35,211 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:49:35,211 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:49:35,314 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:49:35,649 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1337344609.
+06 一月 2018 15:49:35,650 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:49:35,654 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:49:35,711 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:49:35,713 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:49:35,714 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:49:35,748 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT * FROM stock_history 
+06 一月 2018 15:49:35,749 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:49:35,772 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 3
+06 一月 2018 15:52:34,984 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:52:35,014 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:35,014 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:35,015 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:35,015 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:35,117 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:52:35,456 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1337344609.
+06 一月 2018 15:52:35,456 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:52:35,460 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:52:35,505 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:52:35,507 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:52:35,507 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:52:35,536 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT stock_id as StockID, stock_name as StockName, Open, Hight, Low FROM stock_history 
+06 一月 2018 15:52:35,537 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:52:35,581 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 4
+06 一月 2018 15:52:53,542 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 15:52:53,572 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:53,572 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:53,573 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:53,573 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 15:52:53,678 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 15:52:54,011 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1337344609.
+06 一月 2018 15:52:54,011 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:52:54,015 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 15:52:54,060 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 15:52:54,063 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 1
+06 一月 2018 15:52:54,064 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fb64261]
+06 一月 2018 15:52:54,085 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT stock_id as StockID, stock_name as StockName, Open, Hight, Low FROM stock_history 
+06 一月 2018 15:52:54,086 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:52:54,110 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 5
+06 一月 2018 15:52:54,111 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: UPDATE stock_history set stock_name=?,open=?,hight=?,low=? WHERE stock_id = ? 
+06 一月 2018 15:52:54,114 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: test1(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal), 1(Integer)
+06 一月 2018 15:52:54,115 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 5
+06 一月 2018 15:52:54,116 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT stock_id as StockID, stock_name as StockName, Open, Hight, Low FROM stock_history 
+06 一月 2018 15:52:54,117 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:52:54,120 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 5
+06 一月 2018 15:52:54,121 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: DELETE FROM stock_history WHERE stock_id = ? 
+06 一月 2018 15:52:54,122 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer)
+06 一月 2018 15:52:54,123 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 5
+06 一月 2018 15:52:54,123 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: SELECT stock_id as StockID, stock_name as StockName, Open, Hight, Low FROM stock_history 
+06 一月 2018 15:52:54,124 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 
+06 一月 2018 15:52:54,126 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==      Total: 0
+06 一月 2018 16:38:57,036 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:38:57,064 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:38:57,064 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:38:57,065 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:38:57,065 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:38:57,184 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:38:57,521 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1075738627.
+06 一月 2018 16:38:57,521 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@401e7803]
+06 一月 2018 16:38:57,536 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 16:42:25,980 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:42:26,009 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:26,010 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:26,010 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:26,010 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:26,125 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:42:26,471 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1075738627.
+06 一月 2018 16:42:26,472 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@401e7803]
+06 一月 2018 16:42:26,484 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 16:42:51,718 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:42:51,745 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:51,745 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:51,746 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:51,746 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:42:51,860 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:42:52,206 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1075738627.
+06 一月 2018 16:42:52,207 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@401e7803]
+06 一月 2018 16:42:52,219 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 16:46:43,447 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:46:43,475 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:46:43,475 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:46:43,475 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:46:43,476 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:46:43,587 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:46:43,929 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1075738627.
+06 一月 2018 16:46:43,930 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@401e7803]
+06 一月 2018 16:46:43,942 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: INSERT INTO stock_history (stock_id,stock_name, open, hight, low) VALUES (?,?,?,?,?) 
+06 一月 2018 16:50:28,154 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:50:28,184 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:28,185 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:28,185 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:28,185 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:28,367 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:50:28,705 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1484531981.
+06 一月 2018 16:50:28,705 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:28,709 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: insert into stock_history (stock_id,stock_name, open, hight, low) values (?,?,?,?,?) , (?,?,?,?,?) 
+06 一月 2018 16:50:28,746 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 2(Integer), test2(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal), 2(Integer), test2(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 16:50:28,748 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 2
+06 一月 2018 16:50:28,749 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:28,784 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit:120)  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:28,785 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.close:88)  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:28,785 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection:334)  - Returned connection 1484531981 to pool.
+06 一月 2018 16:50:53,293 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:50:53,319 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:53,319 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:53,320 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:53,320 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:50:53,471 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:50:53,807 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1484531981.
+06 一月 2018 16:50:53,808 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:53,811 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: insert into stock_history (stock_id,stock_name, open, hight, low) values (?,?,?,?,?) , (?,?,?,?,?) 
+06 一月 2018 16:50:53,848 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 2(Integer), test2(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal), 2(Integer), test2(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 16:50:53,849 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 2
+06 一月 2018 16:50:53,850 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:53,872 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit:120)  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:53,873 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.close:88)  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:50:53,873 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection:334)  - Returned connection 1484531981 to pool.
+06 一月 2018 16:52:38,587 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:52:38,617 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:52:38,618 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:52:38,618 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:52:38,619 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:53:12,438 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:53:12,475 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:53:12,476 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:53:12,476 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:53:12,476 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:55:45,041 DEBUG [main] (org.apache.ibatis.logging.LogFactory.setImplementation:128)  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+06 一月 2018 16:55:45,069 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:55:45,070 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:55:45,070 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:55:45,070 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll:306)  - PooledDataSource forcefully closed/removed all connections.
+06 一月 2018 16:55:45,224 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection:132)  - Opening JDBC Connection
+06 一月 2018 16:55:45,567 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection:380)  - Created connection 1484531981.
+06 一月 2018 16:55:45,568 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit:98)  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:55:45,571 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==>  Preparing: insert into stock_history (stock_id,stock_name, open, hight, low) values (?,?,?,?,?) , (?,?,?,?,?) 
+06 一月 2018 16:55:45,607 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - ==> Parameters: 1(Integer), test(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal), 2(Integer), test2(String), 1.14(BigDecimal), 2.14(BigDecimal), 0.14(BigDecimal)
+06 一月 2018 16:55:45,610 DEBUG [main] (org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:139)  - <==    Updates: 2
+06 一月 2018 16:55:45,610 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit:69)  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:55:45,635 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit:120)  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:55:45,636 DEBUG [main] (org.apache.ibatis.transaction.jdbc.JdbcTransaction.close:88)  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@587c290d]
+06 一月 2018 16:55:45,637 DEBUG [main] (org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection:334)  - Returned connection 1484531981 to pool.
