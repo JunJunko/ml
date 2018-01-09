@@ -5,9 +5,10 @@ import java.math.BigDecimal;
 import lombok.Data;
 
 @Data
-public class StockHistoryPO {
+public class StockHistoryPo {
 	
-private Integer StockID;
+private String StockID;
+private String DealDate;
 private String StockName;
 private BigDecimal Open;
 private BigDecimal Hight;

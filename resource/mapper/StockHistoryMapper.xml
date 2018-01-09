@@ -5,7 +5,7 @@
 
 <mapper namespace="ml/mapper.StockHistoryMapper">
 	<!-- 配置映射字段 -->
-	<resultMap type="org.junko.ml.po.StockHistoryPO" id="StockHistoryMapper">
+	<resultMap type="org.junko.ml.po.StockHistoryPo" id="StockHistoryMapper">
 		<id property="StockID" column="stock_id" />
 		<result property="StockName" column="stock_name" />
 		<result property="Open" column="open" />
@@ -17,6 +17,7 @@
 	<select id="findAll" resultType="StockHistoryMapper">
 		SELECT stock_id as StockID,
 		stock_name as StockName,
+		deal_date as DealDate,
 		Open,
 		Hight,
 		Low
@@ -41,10 +42,10 @@
 	</insert>
 	
 	<insert id="BatchInsert" useGeneratedKeys="false" parameterType="java.util.List">  
-        insert into stock_history (stock_id,stock_name, open, hight, low)   
+        insert into stock_history (stock_id, deal_date,stock_name, open, hight, low)   
         values  
         <foreach collection="list" item="item" index="index" separator="," >  
-           (#{item.StockID},#{item.StockName},#{item.Open},#{item.Hight},#{item.Low})  
+           (#{item.StockID},#{item.DealDate},#{item.StockName},#{item.Open},#{item.Hight},#{item.Low})  
         </foreach>  
     </insert>  
 

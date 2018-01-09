@@ -6,8 +6,8 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum ConstantData {
 	
-	SH_STOCK_LIST_WEBSITE_ADDR("http://quote.eastmoney.com/stocklist.html#sh"),
-	SZ_STOCK_LIST_WEBSITE_ADDR("http://quote.eastmoney.com/stocklist.html#sz");
+	STOCK_LIST_WEBSITE_ADDR("http://quote.eastmoney.com/stocklist.html"),
+	HISTTORY_DATA_DOWNLOAD_ADDR("http://quotes.money.163.com/trade/lsjysj_${para}.html");
 
 	@Getter
 	private String value;

@@ -2,20 +2,20 @@ package org.junko.ml.dao;
 
 import java.util.List;
 
-import org.junko.ml.po.StockHistoryPO;
+import org.junko.ml.po.StockHistoryPo;
 
 public interface IStockHistoryDao {
 
-	public StockHistoryPO selectStock(int id);
+	public StockHistoryPo selectStock(int id);
 
-	public List<StockHistoryPO> selectAll();
+	public List<StockHistoryPo> selectAll();
 
-	public void addStock(StockHistoryPO stock);
+	public void addStock(StockHistoryPo stock);
 	
-	public void addStock(List<StockHistoryPO> stock);
+	public void addStock(List<StockHistoryPo> stock);
 
 	public void deleteStock(int id);
 
-	public void updateStock(StockHistoryPO stock);
+	public void updateStock(StockHistoryPo stock);
 
 }

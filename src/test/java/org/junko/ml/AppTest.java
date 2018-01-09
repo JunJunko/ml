@@ -7,11 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junko.ml.bo.StockCirculationCycleBo;
+import org.junko.ml.dao.DataBaseDAO;
+import org.junko.ml.dao.IStockCirculationCycleDao;
+import org.junko.ml.dao.impl.StockCirculationCycleImpl;
 import org.junko.ml.dao.impl.StockHistoryDaoImpl;
-import org.junko.ml.po.StockHistoryPO;
+import org.junko.ml.po.StockHistoryPo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -50,39 +53,17 @@ public class AppTest
     public void testApp()
     {System.out.println(System.getProperty("user.dir"));
         assertTrue( true );
-        String resource = "mybatis-config.xml";           // 定位核心配置文件
-        InputStream inputStream = null;
-		try {
-			inputStream = Resources.getResourceAsStream(resource);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);    // 创建 SqlSessionFactory
+        List<StockCirculationCycleBo> scl = new ArrayList<StockCirculationCycleBo>();
+        StockCirculationCycleBo sc = new StockCirculationCycleBo();
+        sc.setStockID("1");
+        sc.setStartDate("");
+        sc.setEndDate("");
+        scl.add(sc);
+        
+		DataBaseDAO database = new DataBaseDAO();
 
-//        SqlSession sqlSession = sqlSessionFactory.openSession();    // 获取到 SqlSession
-        
-        
-        List<StockHistoryPO> a = new ArrayList<StockHistoryPO>();
-        StockHistoryPO shp = new StockHistoryPO();
-        shp.setStockID(1);
-        shp.setStockName("test");
-        shp.setOpen(BigDecimal.valueOf(1.14));
-        shp.setHight(BigDecimal.valueOf(2.14));
-        shp.setLow(BigDecimal.valueOf(0.14));
-        a.add(shp);
-        
-        shp = new StockHistoryPO();
-        
-        shp.setStockID(2);
-        shp.setStockName("test2");
-        shp.setOpen(BigDecimal.valueOf(1.14));
-        shp.setHight(BigDecimal.valueOf(2.14));
-        shp.setLow(BigDecimal.valueOf(0.14));
-        
-        a.add(shp);
-        
-        StockHistoryDaoImpl s = new StockHistoryDaoImpl(sqlSessionFactory);
-        s.addStock(a);
+		IStockCirculationCycleDao stockcirculationcycle = new StockCirculationCycleImpl(database.getSeesionFactory());
+
+        stockcirculationcycle.addStock(scl);
     }
 }

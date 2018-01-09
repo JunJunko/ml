@@ -5,7 +5,8 @@
 
 <configuration>
     <typeAliases>
-        <typeAlias type="org.junko.ml.po.StockHistoryPO" alias="StockHistoryMapper"/>
+        <typeAlias type="org.junko.ml.po.StockHistoryPo" alias="StockHistoryMapper"/>
+        <typeAlias type="org.junko.ml.bo.StockCirculationCycleBo" alias="StockCirculationCycleMapper"/>
     </typeAliases>
 
     <!-- 配置开发环境，可以配置多个，在具体用时再做切换 -->
@@ -24,6 +25,7 @@
     <!-- 加载映射文件 mapper -->
     <mappers>
         <!-- 路径用 斜线（/） 分割，而不是用 点(.) -->
+        <mapper resource="mapper/StockCirculationCycleMapper.xml"></mapper>
         <mapper resource="mapper/StockHistoryMapper.xml"></mapper>
     </mappers>
 </configuration>

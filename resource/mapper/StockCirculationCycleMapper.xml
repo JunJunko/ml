@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ml/mapper.StockCirculationCycleMapper">
+
+<!-- 配置映射字段 -->
+	<resultMap type="org.junko.ml.bo.StockCirculationCycleBo" id="StockCirculationCycleMapper">
+		<id property="StockID" column="stock_id" />
+		<result property="StartDate" column="start_date" />
+		<result property="EndDate" column="end_date" />
+	</resultMap>
+
+	<select id="findAll" resultType="StockCirculationCycleMapper">
+		select stock_id as StockID,
+		start_date as StartDate,
+		end_date as EndDate
+		from stock_circulation_cycle
+
+	</select>
+	
+	<insert id="Insert" useGeneratedKeys="false" parameterType="StockCirculationCycleMapper">
+		insert into stock_circulation_cycle (stock_id, start_date, end_date)
+		values
+			(#{StockID},#{StartDate},#{EndDate})
+	</insert>
+
+
+	<insert id="BatchInsert" useGeneratedKeys="false" parameterType="java.util.List">
+		insert into stock_circulation_cycle (stock_id, start_date, end_date)
+		values
+		<foreach collection="list" item="item" index="index" separator=",">
+			(#{item.StockID},#{item.StartDate},#{item.EndDate})
+		</foreach>
+	</insert>
+
+
+
+</mapper>
