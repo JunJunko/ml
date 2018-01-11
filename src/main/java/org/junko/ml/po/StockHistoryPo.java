@@ -2,9 +2,12 @@ package org.junko.ml.po;
 
 import java.math.BigDecimal;
 
+import org.springframework.stereotype.Component;
+
 import lombok.Data;
 
 @Data
+@Component(value="StockHistoryPo")
 public class StockHistoryPo {
 	
 private String StockID;

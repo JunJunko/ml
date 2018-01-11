@@ -1,7 +1,11 @@
 package org.junko.ml.service.crawler;
 
 import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
@@ -55,6 +59,28 @@ public abstract class AbstractWebConnect {
 			}
 			return result.toString();
 		}
+	
+	
+	protected static boolean saveUrlAs(String Url, String FileName) {  
+        //此方法只能用户HTTP协议  
+            try {  
+              URL url = new URL(Url);  
+              HttpURLConnection connection = (HttpURLConnection) url.openConnection();  
+              DataInputStream in = new DataInputStream(connection.getInputStream());  
+              DataOutputStream out = new DataOutputStream(new FileOutputStream(FileName));  
+              byte[] buffer = new byte[4096];  
+              int count = 0;  
+              while ((count = in.read(buffer)) > 0) {  
+                out.write(buffer, 0, count);  
+              }  
+              out.close();  
+              in.close();  
+              return true;  
+            }  
+            catch (Exception e) {  
+              return false;  
+            }  
+          }  
 
 
 }

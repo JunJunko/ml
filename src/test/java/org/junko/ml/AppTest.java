@@ -21,6 +21,8 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import lombok.extern.slf4j.Slf4j;
 
+import org.junko.ml.util.SpringContextUtils;
+
 /**
  * Unit test for simple App.
  */
@@ -51,19 +53,9 @@ public class AppTest
      * Rigourous Test :-)
      */
     public void testApp()
-    {System.out.println(System.getProperty("user.dir"));
-        assertTrue( true );
-        List<StockCirculationCycleBo> scl = new ArrayList<StockCirculationCycleBo>();
-        StockCirculationCycleBo sc = new StockCirculationCycleBo();
-        sc.setStockID("1");
-        sc.setStartDate("");
-        sc.setEndDate("");
-        scl.add(sc);
-        
-		DataBaseDAO database = new DataBaseDAO();
-
-		IStockCirculationCycleDao stockcirculationcycle = new StockCirculationCycleImpl(database.getSeesionFactory());
-
-        stockcirculationcycle.addStock(scl);
+    {
+    	StockHistoryPo a = (StockHistoryPo)SpringContextUtils.getBean("StockHistoryPo");
+        a.setDealDate("aaaaaaaaaa");
+        System.out.println(a.toString());
     }
 }

@@ -5,18 +5,14 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.Test;
 import org.junko.ml.bo.StockCirculationCycleBo;
 import org.junko.ml.constant.ConstantData;
 import org.junko.ml.dao.DataBaseDAO;
 import org.junko.ml.dao.IStockCirculationCycleDao;
-import org.junko.ml.dao.impl.StockCirculationCycleImpl;
 import org.junko.ml.service.crawler.AbstractWebConnect;
 import org.junko.ml.service.crawler.stocklist.IStockList;
 import org.junko.ml.service.crawler.stocklist.impl.StockIDListImpl;
+import org.junko.ml.util.SpringContextUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -32,7 +28,7 @@ public class InitStockHistoryData extends AbstractWebConnect {
 		List<StockCirculationCycleBo> scl = new ArrayList<StockCirculationCycleBo>();
 		StockCirculationCycleBo sc = new StockCirculationCycleBo();
 		for (String id : sl.getStockList()) {
-			String result = sendGet(ConstantData.HISTTORY_DATA_DOWNLOAD_ADDR.getValue().replace("${para}", id));
+			String result = sendGet(ConstantData.HISTTORY_LIST_DOWNLOAD_ADDR.getValue().replace("${para}", id));
 			m = r.matcher(result);
 			while (m.find()) {
 				String[] t = m.group().split("=");
@@ -48,7 +44,7 @@ public class InitStockHistoryData extends AbstractWebConnect {
 			sc = new StockCirculationCycleBo();
 			if (scl.size() == 100) {
 				putInitStockData2DataBase(scl);
-				log.info("add recored");
+				log.info("add recorde");
 				scl.clear();
 			}
 
@@ -59,8 +55,8 @@ public class InitStockHistoryData extends AbstractWebConnect {
 	}
 
 	public void putInitStockData2DataBase(List<StockCirculationCycleBo> scl) {
-		DataBaseDAO database = new DataBaseDAO();
-		IStockCirculationCycleDao stockcirculationcycle = new StockCirculationCycleImpl(database.getSeesionFactory());
+		IStockCirculationCycleDao stockcirculationcycle = (IStockCirculationCycleDao) SpringContextUtils
+				.getBean("StockCirculationCycleImpl");
 		stockcirculationcycle.addStock(scl);
 	}
 
@@ -68,6 +64,7 @@ public class InitStockHistoryData extends AbstractWebConnect {
 		InitStockHistoryData a = new InitStockHistoryData();
 
 		a.getStartDataAndEndData();
+		
 	}
 
 }

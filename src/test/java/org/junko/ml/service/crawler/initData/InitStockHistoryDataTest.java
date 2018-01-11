@@ -19,7 +19,7 @@ public class InitStockHistoryDataTest extends AbstractWebConnect {
 		IStockList sl = new StockIDListImpl();
 
 		for (String id : sl.getStockList()) {
-			sendGet(ConstantData.HISTTORY_DATA_DOWNLOAD_ADDR.getValue().replace("${para}", id));
+			sendGet(ConstantData.HISTTORY_LIST_DOWNLOAD_ADDR.getValue().replace("${para}", id));
 		}
 
 		return null;
@@ -33,7 +33,7 @@ public class InitStockHistoryDataTest extends AbstractWebConnect {
 		String pattern = "name=\"date_[a-z]{3,5}_type\" value=\"\\d{4}-\\d{2}-\\d{2}\"";
 		Pattern r = Pattern.compile(pattern);
 		Matcher m;
-		String result = sendGet(ConstantData.HISTTORY_DATA_DOWNLOAD_ADDR.getValue().replace("${para}", "600004"));
+		String result = sendGet(ConstantData.HISTTORY_LIST_DOWNLOAD_ADDR.getValue().replace("${para}", "600004"));
 		m = r.matcher(result);
 		while (m.find()) {
 			String[] t = m.group().split("=");
