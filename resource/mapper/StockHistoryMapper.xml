@@ -37,15 +37,15 @@
 
 	<insert id="insert" parameterType="StockHistoryMapper">
 		INSERT INTO stock_history
-		(stock_id,stock_name, open, hight, low) VALUES
-		(#{StockID},#{StockName},#{Open},#{Hight},#{Low})
+		(stock_id, deal_date, open, hight, low) VALUES
+		(#{StockID},#{DealDate},#{Open},#{Hight},#{Low})
 	</insert>
 	
 	<insert id="BatchInsert" useGeneratedKeys="false" parameterType="java.util.List">  
-        insert into stock_history (stock_id, deal_date,stock_name, open, hight, low)   
+        insert into stock_history (stock_id, deal_date, open, hight, low)   
         values  
         <foreach collection="list" item="item" index="index" separator="," >  
-           (#{item.StockID},#{item.DealDate},#{item.StockName},#{item.Open},#{item.Hight},#{item.Low})  
+           (#{item.StockID},#{item.DealDate},#{item.Open},#{item.Hight},#{item.Low})  
         </foreach>  
     </insert>  
 

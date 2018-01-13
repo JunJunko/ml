@@ -11,20 +11,21 @@ import org.junko.ml.util.SpringContextUtils;
 
 public class DownLoadHistoryData extends AbstractWebConnect {
 
-	public StockHistoryPo getStockCsv() {
+	public void getStockCsv() {
 		IStockCirculationCycleDao stock = (IStockCirculationCycleDao) SpringContextUtils
 				.getBean("StockCirculationCycleImpl");
 		List<StockCirculationCycleBo> stockList = stock.selectAll();
 		for (StockCirculationCycleBo s : stockList) {
-			String url = ConstantData.DOWNlOAD_SCV_ADDR.getValue().replace("${id}", s.getStockID())
+			String stockid = s.getStockID().startsWith("0") ? "1"+s.getStockID() : "0"+s.getStockID();
+			String url = ConstantData.DOWNlOAD_SCV_ADDR.getValue().replace("${id}", stockid)
 					.replace("${start}", s.getStartDate().replace("-", ""))
 					.replace("${end}", s.getEndDate().replace("-", ""));
 			saveUrlAs(url, "data/"+s.getStockID()+".cvs");
+//			System.out.println(url);
 		}
 
-		return null;
-
 	}
+	
 
 	public static void main(String[] args) {
 		DownLoadHistoryData a = new DownLoadHistoryData();
